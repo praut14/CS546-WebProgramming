@@ -1,0 +1,44 @@
+<div id="login-div">
+  <div id="login-form-div">
+    <form id="login-form" class="main-content" method="POST" action="/login">
+      <h1>DriveNow Car Rental</h1>
+      <img src="../public/car.png" alt="Renting a car" />
+
+      <h2>{{title}}</h2>
+
+      <label for="email">Email ID</label>
+      <input
+        placeholder="Enter your email"
+        id="email"
+        name="email"
+        required
+        pattern="[^ @]*@[^ @]*"
+      />
+
+      <label for="hashPassword">Password</label>
+      <input
+        type="password"
+        placeholder="Enter your password"
+        id="hashPassword"
+        name="hashPassword"
+        required
+      />
+
+      <button type="submit">Login</button>
+
+      <p>Don't have an account? <a href="/register">SignUp</a> </p>
+      
+      <div class="login-error-div"></div>
+
+      {{#if error}}
+        <p class="error">{{{error}}}</p>
+      {{/if}}
+
+    </form>
+  </div>
+
+  {{! <div class="login-error-div hidden">
+    <p>Either the email or password is invalid</p>
+  </div> }}
+
+</div>

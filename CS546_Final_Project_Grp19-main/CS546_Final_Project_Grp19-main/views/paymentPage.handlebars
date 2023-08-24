@@ -1,0 +1,52 @@
+<form id="payment-form" class="main-content" method="POST" action="/protected/payment">
+  <h1>{{title}}</h1>
+ <p>Total Calculated cost : {{totalCost}}</p>
+  <h2>Select payment option</h2>
+  <label for="cardNumber">Card Number</label>
+  <input
+    placeholder="Enter your card number"
+    id="cardNumber"
+    name="cardNumber"
+    required
+    type="tel"
+     pattern="\d*" 
+     maxlength="16"
+  />
+
+  <label for="cardName">Name</label>
+  <input
+    placeholder="Enter name on the card"
+    id="cardName"
+    name="cardName"
+    required
+  />
+
+  <label for="cardCvv">CVV</label>
+  <input
+  class="cc-cvc"
+   type="password"
+    placeholder="Enter 3 digit CVV"
+    id="cardCvv"
+    name="cardCvv"
+    required
+  />
+
+  <label for="cardExpiry">Expiry</label>
+  <input
+  class="cc-expires"
+    placeholder="Enter Expiry - MM/YY"
+    id="cardExpiry"
+    name="cardExpiry"
+    required
+  />
+
+  <button type="submit">Submit</button>
+
+  {{#if error}}
+    <p class="error">{{error}}</p>
+  {{/if}}
+
+  <a href="/protected/logoutConfirm">Click here to Logout</a>
+   <a href="/protected/welcome">Click here to go to dashboard</a>
+
+</form>

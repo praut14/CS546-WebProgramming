@@ -1,0 +1,313 @@
+body {
+  padding: 0 40%;
+  background: #709ebc;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: #1f618d;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+h2 {
+  color: #1f618d;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+main {
+  width: 300px;
+}
+
+
+div {
+  height: 30px;
+}
+#forbidden-page h1 {
+  color: #1f618d;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: auto;
+}
+#forbidden-page img {
+  margin-top: 1%;
+  margin-bottom: auto;
+}
+
+#forbidden-page a {
+  /* text-align: center;
+  margin-bottom: auto; */
+  background: #1f618d;
+  height: 10%;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.error {
+  color: red !important;
+  box-shadow: 5px 5px 15px 5px #1f618d;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.register-link-div {
+  color: #0b3c5d;
+  text-align: center;
+}
+
+.login-error-div , .signup-error-div{
+  color: red !important;
+  box-shadow: 5px 5px 15px 5px #1f618d;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 0 30px;
+  height: 6%;
+  margin-bottom: 7%
+}
+
+#login-form input, #booking-form-div input, #walletMoneyUpdate-div input , #payment-form input{
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #5499c7;
+  padding-left: 5px;
+}
+
+#viewCar-form-div select{
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #5499c7;
+  padding-left: 5px;
+}
+
+
+#signup-form input {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #5499c7;
+  padding-left: 5px;
+}
+
+#signup-form select {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #5499c7;
+  padding-left: 5px;
+}
+
+#login-form p {
+  color: #0b3c5d;
+  text-align: center;
+}
+
+#viewCar-form-div p{
+  color: #0b3c5d;
+  text-align: center;
+}
+
+/* #viewCar-form-div{
+  width: %
+} */
+
+.main-content {
+  background: rgb(209, 227, 236);
+  padding: 0 30px;
+  justify-content: center;
+  min-height: 700px;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 15px 5px #1f618d;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#welcome-div-content p{
+  color: #0b3c5d;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+#welcome-div{
+  height:100px
+}
+
+#login-form .login-form-msg {
+  color: green;
+  text-align: center;
+  text-shadow: green;
+}
+
+#login-form label {
+  color: #0b3c5d;
+}
+
+#signup-form p {
+  color: #0b3c5d;
+  text-align: center;
+}
+
+#signup-form label {
+  color: #0b3c5d;
+}
+
+#booking-form-div{
+  color: #0b3c5d;
+}
+
+#walletMoneyUpdate-div label{
+  color: #0b3c5d;
+}
+
+/* #signup-form  option > #default {
+    text-align: center; 
+    color: gray !important;
+}*/
+
+#signup-form img {
+  object-fit: contain;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  width: 200px;
+}
+
+#signup-form button,
+#login-form button, #booking-form-div button, #walletMoneyUpdate-div button,#payment-form button, #viewCar-form-div button{
+  background: #1f618d;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+}
+
+#logout-form button{
+  background: #1f618d;
+  height: 25px;
+  width: 297px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+  margin-left: 14px
+
+}
+
+/* #viewCar-form-div button{
+  background: #1f618d;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+  margin-left: 10px;
+} */
+
+/* The alert message box */
+/* .alert {
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+  } */
+
+/* The close button */
+/* .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  } */
+
+/* When moving the mouse over the close button */
+/* .closebtn:hover {
+    color: black;
+  } */
+
+.main-content-logout {
+  background: rgb(209, 227, 236);
+  padding: 0 30px;
+  justify-content: center;
+  min-height: 350px;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 15px 5px #1f618d;
+  border-radius: 8px;
+  width: 100%;
+}
+
+#logout-page p {
+  color: #0b3c5d;
+  text-align: center;
+}
+
+#logout-page h2 {
+  margin-top: 10% !important;
+  margin-bottom: auto;
+}
+
+#logout-page a {
+  background: #1f618d;
+  height: 70%;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 10px;
+}
+#error-div a
+{
+  background: #1f618d;
+  height: 6%;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 10px;
+
+}
+#error-div img, #viewCar-form-div img{
+  margin-bottom: 70px;
+
+}
+
+#welcome-div-content-a, #booking-form-div a, #walletMoneyUpdate-div a, #payment-form a{
+  text-align: center;
+}
+
+#welcome-div-content img {
+  margin-bottom: 70px
+}
+#welcome-div-content
+
+#payment-form h4 {
+  text-align: left;
+}
+
